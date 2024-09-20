@@ -11,7 +11,7 @@ app.use(cors());
 app.use("/api/v1", router);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Okobiz Server Running !");
+  res.send("Okobiz Server!");
 });
 
 app.use(globalErrorHandler);
